@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan.prak2.(1)</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 5px solid #007bff;
+}
+
+.card {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="Foto_Ku.jpg" alt="Profile Picture">
+        </div>
+        <!-- About Me Section -->
+        <div class="card">
+            <h2>About Me</h2>
+            <p>A passionate individual with a love for Music. Skilled in Backend Developments.</p>
+        </div>
+        <!-- Projects Section -->
+        <div class="card">
+            <h2>Projects</h2>
+            <p><a href="#">Project 1 Title</a> - Brief description of Project 1.</p>
+            <p><a href="#">Project 2 Title</a> - Brief description of Project 2.</p>
+        </div>
+        <!-- Contact Section -->
+        <div class="card">
+            <h2>Contact</h2>
+            <p>Email: budionosiregar@kapallawd.com</p>
+            <p>LinkedIn: <a href="#">Budiono Siregar</a></p>
+        </div>
+    </div>
+</body>
+</html>
